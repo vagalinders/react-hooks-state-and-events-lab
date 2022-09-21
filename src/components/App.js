@@ -12,23 +12,17 @@ function App() {
   // this will be used for the Dark Mode Toggle feature
  
   
-  
-  
+
   
 return (
     <div className={appClass}>
       <header>
         <h2>Shopster</h2>
-        <button onClick = {handleToggleDarkMode}> {appClass}
-        Dark Mode </button>
+        <button onClick = {handleToggleDarkMode}> {appClass}</button>
       </header>
       <ShoppingList items={itemData} />
     </div>
   );
 }
-
-
-  
-
 
 export default App;
